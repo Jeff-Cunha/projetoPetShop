@@ -14,7 +14,7 @@ html{
 }
  
 .toTop{
-    background-color: #004aad;
+    background-color: rgb(97, 97, 103);
     position:fixed;
     width: 2rem;
     height: 2rem;
@@ -28,8 +28,6 @@ html{
     align-items: center; 
     font-size: 1.5rem;
     transition: all 0.3s;
-    text-decoration: none;
-    opacity: 0;
 }
 .toTop.active{
     opacity: 1;
@@ -42,6 +40,7 @@ header{
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid black;
+    background-color: rgb(97, 97, 103);
 }
 header #logo{
    font-size: 1.5rem;
@@ -49,20 +48,13 @@ header #logo{
 }
 #menu ul{
     display:flex;
-    gap: 1.5rem; /*dá um espaço nos links*/
-    list-style: none; /*tira a bola da lista */
+    gap: 1.5rem; 
+    list-style: none; 
     font-size: 0.8rem; 
     font-weight: 900 ;
 }
 
-#logo a{
+a1{
     text-decoration: none;
     color: black;
-}
-#produtosin{
-    /* background-color: purple */
-
-}
-.mun{
-    margin: 0;
 }
