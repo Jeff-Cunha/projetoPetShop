@@ -1,0 +1,68 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100px;
+    font-size: larger;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+ 
+.toTop{
+    background-color: #004aad;
+    position:fixed;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    pointer-events: none;
+    bottom: 2rem;
+    right: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1.5rem;
+    transition: all 0.3s;
+    text-decoration: none;
+    opacity: 0;
+}
+.toTop.active{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+header #logo{
+   font-size: 1.5rem;
+   font-weight: 400;
+}
+#menu ul{
+    display:flex;
+    gap: 1.5rem; /*dá um espaço nos links*/
+    list-style: none; /*tira a bola da lista */
+    font-size: 0.8rem; 
+    font-weight: 900 ;
+}
+
+#logo a{
+    text-decoration: none;
+    color: black;
+}
+#produtosin{
+    /* background-color: purple */
+
+}
+.mun{
+    margin: 0;
+}
