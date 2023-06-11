@@ -57,27 +57,7 @@ body {
 
 }
 
-.return-button {
-    display: flex;
-    align-items: center;
-}
 
-.return-button button {
-    border: none;
-    background-color: rgb(97, 97, 103);
-    padding: 0.4rem 1rem;
-    cursor: pointer;
-}
-
-.return-button button:hover {
-    background-color: #6b63fff1;
-}
-
-.return-button a {
-    text-decoration: none;
-    font-weight: 500;
-    color: #fff;
-}
 
 .form-header h1::after {
     content: '';
@@ -94,7 +74,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
 .input-box {
@@ -219,12 +199,19 @@ body {
     height: 30px;
     font-size: 10px;
     line-height: 300%;
+    /* tamanho da linha que contem o texto X para alinhar no centro */
     text-decoration: none;
+    /* tira o sublinhado do link */
     text-align: center;
+    /*alinhamento to texto no meio do botão (esq-dir)*/
     position: relative;
-    right: 0.75%;
+    /* relativo para ficar por posicionado como está acima */
+    right: 2.75%;
+    /* posição em relação horizontal */
     top: 1%;
+    /* posição em relação vertical */
     float: right;
+    /* desacopla o botão */
     border-radius: 50%;
     background-color: #d9c391;
     color: #fff;
