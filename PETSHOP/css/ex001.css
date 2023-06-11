@@ -212,7 +212,7 @@ textarea {
     align-items: center;
     background-color: #d9c391;
     padding: 1%;
-    border-radius: 20px;
+    border-radius: 20px 0 0 20px;
 }
 
 .form-image img {
