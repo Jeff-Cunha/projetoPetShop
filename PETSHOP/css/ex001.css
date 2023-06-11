@@ -1,11 +1,11 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
 
     height: auto;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 100px;
     font-size: larger;
 }
@@ -108,7 +108,7 @@ input[type="submit"]:hover {
 }
 
 .aprese {
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Inter', sans-serif;
     font-size: large;
     margin-top: 2rem;
 }
@@ -138,7 +138,7 @@ input[type="submit"]:hover {
     font-weight: 500;
     color: #fff;
     font-size: large;
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Inter', sans-serif;
     width: 150px;
     height: 30px;
 }
