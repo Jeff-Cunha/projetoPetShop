@@ -242,3 +242,13 @@ textarea {
     background-color: #d9c391;
     color: #fff;
 }
+
+.continue-button {
+    width: 84%;
+    border: none;
+    background-color: rgb(97, 97, 103);
+    padding: 2%;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
