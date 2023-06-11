@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    
+
     height: auto;
 }
 
@@ -31,7 +31,7 @@ html {
     transition: all 0.3s;
     text-decoration: none;
     color: black;
-    
+
 }
 
 .toTop.active {
@@ -78,7 +78,7 @@ textarea {
     padding: 10px;
     border-radius: 5px;
     border: none;
-    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.212);
     width: 100%;
     margin-bottom: 20px;
 }
@@ -95,28 +95,29 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #444;
 }
-.inicio{
+
+.inicio {
     height: 35%;
     width: 50%;
-    
+
 }
 
-.ajuste{
+.ajuste {
     margin-left: 25%;
-    
+
 }
 
-.aprese{
+.aprese {
     font-family: 'Brush Script MT', cursive;
     font-size: large;
     margin-top: 2rem;
 }
 
-.botao{
+.botao {
     height: 30%;
     width: 30%;
 }
-    
+
 .botao button {
     border: none;
     background-color: rgb(97, 97, 103);
@@ -124,11 +125,13 @@ input[type="submit"]:hover {
     cursor: pointer;
     border-radius: 8px;
     margin-top: 2rem;
-    margin-left: 20rem; 
+    margin-left: 20rem;
 }
-.botao button:hover{
+
+.botao button:hover {
     background-color: #d3a91ff1;
 }
+
 .botao button a {
     display: flex;
     text-decoration: none;
@@ -139,16 +142,103 @@ input[type="submit"]:hover {
     width: 150px;
     height: 30px;
 }
-.golden{
+
+.golden {
     float: right;
     margin-right: 18rem;
 }
 
+/* Página de faleconosco com formulario */
 
-    
+.container-cont {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    margin: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 20px;
+}
 
-    
-    
-    
+.form-cont {
+    width: 50%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 2%;
+    margin-left: 5%;
+}
 
+.form-cont-box {
+    margin-right: 20%;
+}
 
+input[type="text"],
+input[type="contato"],
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="email"],
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.body-black {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 25, 27);
+}
+
+.form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9c391;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.form-image img {
+    width: 80%;
+    height: 80%;
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    line-height: 300%;
+    /* tamanho da linha que contem o texto X para alinhar no centro */
+    text-decoration: none;
+    /* tira o sublinhado do link */
+    text-align: center;
+    /*alinhamento to texto no meio do botão (esq-dir)*/
+    position: relative;
+    /* relativo para ficar por posicionado como está acima */
+    right: 0.75%;
+    /* posição em relação horizontal */
+    top: 1%;
+    /* posição em relação vertical */
+    float: right;
+    /* desacopla o botão */
+    border-radius: 50%;
+    background-color: #d9c391;
+    color: #fff;
+}
