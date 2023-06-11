@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-
+    background-color: #d9c391;
     height: auto;
 }
 
@@ -242,3 +242,47 @@ textarea {
     background-color: #d9c391;
     color: #fff;
 }
+
+/* Página de Produtos */
+
+.produtos{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+    padding: 1% 0;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.prod img{
+    width: 14rem;
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
+}
+.prod{
+    width: 15rem;
+    height: 20rem;
+    background-color: rgb(97, 97, 103);
+    border-radius: 10px;
+    color: white;
+
+}
+
+.prod p{
+    margin-left: 4%;
+}
+
+.prod button{
+    margin-left: 35%;
+    border-radius: 5px;
+}
+
+.catdog{
+    margin-left: 7.5%;
+}
+/* Ajeitar botão, centralizar área branca, mudar produtos, adicionar categoria: brinquedos e produtos de gato */
