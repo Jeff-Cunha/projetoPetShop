@@ -219,19 +219,12 @@ body {
     height: 30px;
     font-size: 10px;
     line-height: 300%;
-    /* tamanho da linha que contem o texto X para alinhar no centro */
     text-decoration: none;
-    /* tira o sublinhado do link */
     text-align: center;
-    /*alinhamento to texto no meio do botão (esq-dir)*/
     position: relative;
-    /* relativo para ficar por posicionado como está acima */
     right: 0.75%;
-    /* posição em relação horizontal */
     top: 1%;
-    /* posição em relação vertical */
     float: right;
-    /* desacopla o botão */
     border-radius: 50%;
     background-color: #d9c391;
     color: #fff;
