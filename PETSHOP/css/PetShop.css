@@ -1,278 +1,280 @@
-body {
-    font-family: 'Montserrat', sans-serif;
+/* Menu (Comum em "todas" as páginas") */
 
-    height: auto;
-}
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100px;
-    font-size: larger;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-.toTop {
-    background-color: rgb(97, 97, 103);
-    position: fixed;
-    width: 2rem;
-    height: 2rem;
-    padding: 0.5rem;
-    pointer-events: none;
-    bottom: 2rem;
-    right: 5rem;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    transition: all 0.3s;
-    text-decoration: none;
-    color: black;
-
-}
-
-.toTop.active {
-    opacity: 1;
-    pointer-events: auto;
-}
 
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid black;
-    background-color: rgb(97, 97, 103);
-    border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid black;
+  background-color: rgb(97, 97, 103);
+  border-radius: 10px;
+  padding: 1% 1%;
+  font-family: "Montserrat", sans-serif;
 }
 
 header #logo {
-    font-size: 1.5rem;
-    font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 #menu ul {
-    display: flex;
-    gap: 1.5rem;
-    list-style: none;
-    font-size: 0.8rem;
-    font-weight: 900;
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  font-size: 0.8rem;
+  font-weight: 900;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
+/* Index.html */
 
-h1 {
-    text-align: center;
-}
-
-input[type="text"],
-input[type="contato"],
-
-textarea {
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.212);
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #444;
+.golden {
+  float: right;
+  margin-right: 15rem;
 }
 
 .inicio {
-    height: 35%;
-    width: 50%;
-
+  height: 35%;
+  width: 50%;
 }
 
 .ajuste {
-    margin-left: 25%;
-
+  margin-left: 25%;
 }
 
 .aprese {
-    font-family: 'Brush Script MT', cursive;
-    font-size: large;
-    margin-top: 2rem;
+  font-family: "Brush Script MT", cursive;
+  font-size: large;
+  margin-top: 2rem;
 }
 
 .botao {
-    height: 30%;
-    width: 30%;
+  width: 15rem;
+  height: 2.5rem;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  margin-left: 50%;
+  margin-top: 3%;
+  border-radius: 10px;
+  background-color: rgb(97, 97, 103);
+  cursor: pointer;
+  color: #fff;
+  line-height: 250%;
+  font-family: "Brush Script MT", cursive;
 }
 
-.botao button {
-    border: none;
-    background-color: rgb(97, 97, 103);
-    padding: 1.5rem 7rem;
-    cursor: pointer;
-    border-radius: 8px;
-    margin-top: 2rem;
-    margin-left: 20rem;
-}
-
-.botao button:hover {
-    background-color: #d3a91ff1;
-}
-
-.botao button a {
-    display: flex;
-    text-decoration: none;
-    font-weight: 500;
-    color: #fff;
-    font-size: large;
-    font-family: 'Brush Script MT', cursive;
-    width: 150px;
-    height: 30px;
-}
+/* Index.html */
 
 .golden {
-    float: right;
-    margin-right: 18rem;
+  float: right;
+  margin-right: 15rem;
 }
 
-/* Página de faleconosco com formulario */
+.inicio {
+  height: 35%;
+  width: 50%;
+}
+
+.ajuste {
+  margin-left: 25%;
+}
+
+.aprese {
+  font-family: "Brush Script MT", cursive;
+  font-size: large;
+  margin-top: 2rem;
+}
+
+.botao {
+  width: 15rem;
+  height: 2.5rem;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  margin-left: 50%;
+  margin-top: 3%;
+  border-radius: 10px;
+  background-color: rgb(97, 97, 103);
+  cursor: pointer;
+  color: #fff;
+  line-height: 250%;
+  font-family: "Brush Script MT", cursive;
+}
+
+/* Página faleconosco.htm */
 
 .container-cont {
-    width: 80%;
-    height: 80vh;
-    display: flex;
-    margin: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    border-radius: 20px;
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  margin: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .form-cont {
-    width: 50%;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    margin-top: 2%;
-    margin-left: 5%;
+  width: 50%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 2%;
+  margin-left: 5%;
 }
 
 .form-cont-box {
-    margin-right: 20%;
+  margin-right: 20%;
 }
 
 input[type="text"],
 input[type="contato"],
 textarea {
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 input[type="email"],
 textarea {
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .body-black {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(25, 25, 27);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(25, 25, 27);
 }
 
 .form-image {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #d9c391;
-    padding: 1%;
-    border-radius: 20px 0 0 20px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9c391;
+  padding: 1%;
+  border-radius: 20px 0 0 20px;
 }
 
 .form-image img {
-    width: 80%;
-    height: 80%;
+  width: 80%;
+  height: 80%;
 }
 
 .close {
-    width: 30px;
-    height: 30px;
-    font-size: 10px;
-    line-height: 300%;
-    /* tamanho da linha que contem o texto X para alinhar no centro */
-    text-decoration: none;
-    /* tira o sublinhado do link */
-    text-align: center;
-    /*alinhamento to texto no meio do botão (esq-dir)*/
-    position: relative;
-    /* relativo para ficar por posicionado como está acima */
-    right: 0.75%;
-    /* posição em relação horizontal */
-    top: 1%;
-    /* posição em relação vertical */
-    float: right;
-    /* desacopla o botão */
-    border-radius: 50%;
-    background-color: #d9c391;
-    color: #fff;
+  width: 30px;
+  height: 30px;
+  font-size: 10px;
+  line-height: 300%;
+  /* tamanho da linha que contem o texto X para alinhar no centro */
+  text-decoration: none;
+  /* tira o sublinhado do link */
+  text-align: center;
+  /*alinhamento to texto no meio do botão (esq-dir)*/
+  position: relative;
+  /* relativo para ficar por posicionado como está acima */
+  right: 0.75%;
+  /* posição em relação horizontal */
+  top: 1%;
+  /* posição em relação vertical */
+  float: right;
+  /* desacopla o botão */
+  border-radius: 50%;
+  background-color: #d9c391;
+  color: #fff;
 }
 
+/* Página produtos.html */
+
+.pagina-produtos{
+  background-color: #d9c391;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 80%;
+  border-radius: 10px;
+  padding: 1% 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.prod img {
+  width: 14rem;
+  height: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4%;
+}
+.prod {
+  width: 15rem;
+  height: 20rem;
+  background-color: rgb(97, 97, 103);
+  border-radius: 10px;
+  color: white;
+}
+
+.prod p {
+  margin-left: 4%;
+}
+
+.prod button {
+  margin-left: 35%;
+  border-radius: 5px;
+}
+
+.catdog {
+  margin-left: 10.5%;
+}
+
+/* Ajeitar botão, centralizar área branca, mudar produtos, adicionar categoria: brinquedos e produtos de gato */
+
 .continue-button {
-    width: 84%;
-    border: none;
-    background-color: rgb(97, 97, 103);
-    padding: 2%;
-    border-radius: 5px;
-    cursor: pointer;
-    color: white;
+  width: 84%;
+  border: none;
+  background-color: rgb(97, 97, 103);
+  padding: 2%;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
 }
 
 .gender-group {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 0.50rem;
-    padding: 3px;
-    align-items: right;
-    padding: 2px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+  padding: 3px;
+  align-items: right;
+  padding: 2px;
 }
 
 .gender-input {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .gender-input input {
-    margin-right: 0.35rem;
+  margin-right: 0.35rem;
 }
 
 .gender-input label {
-    font-size: 0.81rem;
-    font-weight: 600;
-    color: #000000c0;
+  font-size: 0.81rem;
+  font-weight: 600;
+  color: #000000c0;
 }
