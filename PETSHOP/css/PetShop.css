@@ -1,5 +1,6 @@
 /* Menu (Comum em "todas" as páginas") */
 
+
 header {
   display: flex;
   flex-direction: row;
@@ -198,6 +199,10 @@ textarea {
 
 /* Página produtos.html */
 
+.pagina-produtos{
+  background-color: #d9c391;
+}
+
 .produtos {
   display: flex;
   justify-content: space-evenly;
@@ -205,8 +210,8 @@ textarea {
   width: 80%;
   border-radius: 10px;
   padding: 1% 0;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .prod img {
@@ -235,7 +240,7 @@ textarea {
 }
 
 .catdog {
-  margin-left: 7.5%;
+  margin-left: 10.5%;
 }
 
 /* Ajeitar botão, centralizar área branca, mudar produtos, adicionar categoria: brinquedos e produtos de gato */
