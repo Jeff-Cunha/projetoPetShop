@@ -1,5 +1,7 @@
 /* Menu (Comum em "todas" as páginas") */
-
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
 
 header {
   display: flex;
@@ -10,7 +12,6 @@ header {
   background-color: rgb(97, 97, 103);
   border-radius: 10px;
   padding: 1% 1%;
-  font-family: "Montserrat", sans-serif;
 }
 
 header #logo {
