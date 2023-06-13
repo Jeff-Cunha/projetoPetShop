@@ -30,7 +30,7 @@ header #logo {
 /* Index.html */
 .body-index{
   background-color: #e0bd20c5;
-
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .golden {
@@ -42,16 +42,15 @@ header #logo {
 .inicio {
   height: 35%;
   width: 50%;
-}
-
-.ajuste {
-  margin-left: 25%;
-}
-
-.aprese {
-  font-family: "Brush Script MT", cursive;
+  /* margin-left: 2%; */
   font-size: large;
-  margin-top: 2rem;
+  /* margin-top: 2%; */
+  padding: 4%;
+  
+}
+
+.inicio h3{
+  margin-top: 10%;
 }
 
 .botao {
@@ -60,19 +59,65 @@ header #logo {
   text-decoration: none;
   text-align: center;
   float: left;
-  margin-left: 50%;
+  margin-bottom: 3%;
+  margin-right: 50%;
+  margin-left: 25%;
   margin-top: 3%;
   border-radius: 10px;
-  background-color: rgb(97, 97, 103);
+  background-color: #e0bd20c5;
   cursor: pointer;
   color: #fff;
   line-height: 250%;
-  font-family: "Brush Script MT", cursive;
-  
 }
  .botao:hover{
-  background-color: #6eb6c0f1;
+  background-color: #6ec0aef1;
 }
+
+.marcas{
+  display: flex;
+  justify-content: space-evenly;
+  height: 160px;
+  width: 100%;
+  margin-right: 50%;
+  }
+
+  #h3-fotos{
+    height: 35%;
+    width: 50%;
+    padding: 4%;
+  }
+
+
+.fotos{
+  display: flex;
+  justify-content: space-evenly;  
+}
+
+.fotos img{
+  border-radius: 20px;
+  width: 227px;
+  height: 302px;
+  justify-content: space-evenly;
+}
+
+.nomes{
+  display: flex;
+  padding-top: 1%;
+}
+
+#jeff{
+  margin-left: 16%;
+}
+
+#neto{
+  margin-left: 21%;
+}
+
+#thiago{
+  margin-left: 23%;
+}
+
+
 
 /* Página faleconosco.htm */
 
@@ -129,6 +174,7 @@ textarea {
   justify-content: center;
   align-items: center;
   background-color: rgb(25, 25, 27);
+  font-family: 'Josefin Sans', sans-serif; 
 }
 
 .form-image {
@@ -150,7 +196,7 @@ textarea {
   width: 30px;
   height: 30px;
   font-size: 10px;
-  line-height: 300%;
+  line-height: 325%;
   /* tamanho da linha que contem o texto X para alinhar no centro */
   text-decoration: none;
   /* tira o sublinhado do link */
