@@ -1,0 +1,265 @@
+/* Menu (Comum em "todas" as páginas") */
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid black;
+  background-color: rgb(97, 97, 103);
+  border-radius: 10px;
+  padding: 1% 1%;
+}
+
+header #logo {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+#menu ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
+/* Index.html */
+.body-index{
+  background-color: #e0bd20c5;
+
+}
+
+.golden {
+  float: right;
+  margin-right: 15rem;
+  
+}
+
+.inicio {
+  height: 35%;
+  width: 50%;
+}
+
+.ajuste {
+  margin-left: 25%;
+}
+
+.aprese {
+  font-family: "Brush Script MT", cursive;
+  font-size: large;
+  margin-top: 2rem;
+}
+
+.botao {
+  width: 15rem;
+  height: 2.5rem;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  margin-left: 50%;
+  margin-top: 3%;
+  border-radius: 10px;
+  background-color: rgb(97, 97, 103);
+  cursor: pointer;
+  color: #fff;
+  line-height: 250%;
+  font-family: "Brush Script MT", cursive;
+  
+}
+ .botao:hover{
+  background-color: #6eb6c0f1;
+}
+
+/* Página faleconosco.htm */
+
+.container-cont {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  margin: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.form-cont {
+  width: 50%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.form-cont-box {
+  margin-right: 20%;
+}
+
+input[type="text"],
+input[type="contato"],
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.body-black {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(25, 25, 27);
+}
+
+.form-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9c391;
+  padding: 1%;
+  border-radius: 20px 0 0 20px;
+}
+
+.form-image img {
+  width: 80%;
+  height: 80%;
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+  font-size: 10px;
+  line-height: 300%;
+  /* tamanho da linha que contem o texto X para alinhar no centro */
+  text-decoration: none;
+  /* tira o sublinhado do link */
+  text-align: center;
+  /*alinhamento to texto no meio do botão (esq-dir)*/
+  position: relative;
+  /* relativo para ficar por posicionado como está acima */
+  right: 0.75%;
+  /* posição em relação horizontal */
+  top: 1%;
+  /* posição em relação vertical */
+  float: right;
+  /* desacopla o botão */
+  border-radius: 50%;
+  background-color: #d9c391;
+  color: #fff;
+}
+
+/* Página produtos.html */
+
+.pagina-produtos{
+  background-color: #e0bd20c5;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 80%;
+  border-radius: 10px;
+  padding: 1% 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 1%;
+}
+
+.prod img {
+  width: 14rem;
+  height: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4%;
+}
+.prod {
+  width: 15rem;
+  height: 22rem;
+  background-color: rgb(97, 97, 103);
+  border-radius: 10px;
+  color: white;
+}
+
+
+.prod p {
+  margin-left: 4%;
+}
+
+.prod button {
+  margin-left: 35%;
+  border-radius: 5px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: rgb(180, 180, 180);
+  cursor: pointer;
+  color: #fff;
+  line-height: 250%;
+  margin-top: -70%;
+}
+
+.prod button:hover{
+  background-color: #6eb6c0f1;
+}
+
+.catdog {
+  margin-left: 10.5%;
+}
+
+/* Ajeitar botão, centralizar área branca, mudar produtos, adicionar categoria: brinquedos e produtos de gato */
+
+.continue-button {
+  width: 84%;
+  border: none;
+  background-color: rgb(97, 97, 103);
+  padding: 2%;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.gender-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+  padding: 3px;
+  align-items: right;
+  padding: 2px;
+}
+
+.gender-input {
+  display: flex;
+  align-items: center;
+}
+
+.gender-input input {
+  margin-right: 0.35rem;
+}
+
+.gender-input label {
+  font-size: 0.81rem;
+  font-weight: 600;
+  color: #000000c0;
+}
