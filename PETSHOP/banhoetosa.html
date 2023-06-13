@@ -13,24 +13,57 @@
   <script src="https://kit.fontawesome.com/a2c552bd86.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="body-servicos">
-  <!-- <i class="fa-solid fa-paw"></i> -->
-  <header class="mun">
-    <div id="logo">
-      <i class="fa-solid fa-paw"></i>
-      <a href="index.html" style="color: black;text-decoration: none;">GoldenPawn</a>
+<body class="body-black">
+  <div class="container-cont">
+    <div class="form-image">
+      <img class="form-image" src="img/cadastro-e-outras.svg">
     </div>
-    <nav id="menu">
-      <ul>
-        <li>
-          <a href="produtos.html" style="color: black;text-decoration: none;">PRODUTOS</a>
-        </li>
-        <li>
-          <a href="banhoetosa.html" style="color: black;text-decoration: none;">BANHO E TOSA</a>
-        </li>
-        <li>
-          <a href="cadastro.html" style="color: black;text-decoration: none;">CADASTRE-SE</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+    <div class="form-cont">
+      <h1 style="text-align: center; padding-right: 20%;">Marque sua Consulta conosco</h1>
+      <form action="index.html">
+        <div class="form-cont-box">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" placeholder="Seu nome aqui" required>
+        </div>
+        <div class="form-cont-box">
+          <label for="Contato">Telefone:</label>
+          <input type="contato" id="contato" name="contato" placeholder="Seu numero de telefone para contato" required>
+        </div>
+        <div class="form-cont-box">
+          <label for="Email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Seu endereço de email aqui" required>
+        </div>
+        <div class="form-cont-box">
+          <label for="message">Conte-nos sobre seu cachorro:</label>
+          <textarea id="message" name="mensagem"
+            placeholder="Exemplo: Se é castrado, se faz uso de remedios, se ele é ansioso ou se tem medo de estranhos."
+            required></textarea>
+          <div class="service-group">
+            <div class="service-input">
+              <input type="radio" id="banho" name="banho">
+              <label for="'banho">Banho</label>
+              <p><small>R$ 35,00</small></p>
+            </div>
+            <div class="service-input">
+              <input type="radio" id="tosa" name="tosa">
+              <label for="'tosa">Tosa</label>
+              <p><small>R$ 35,00</small></p>
+            </div>
+            <div class="service-input">
+              <input type="radio" id="banhoetosa" name="banhoetosa">
+              <label for="'banhoetosa">Banho e Tosa</label>
+              <p><small>R$ 70,00</small></p>
+            </div>
+          </div>
+        </div>
+        <button class="continue-button">Enviar</button>
+        <p style="font-size: small;"><br>OBS.: Envie sua mensagem, iremos responder o mais rápido
+          possível<br>pelo
+          email ou pelo WhatsApp informado acima. </p>
+      </form>
+    </div>
+    <a href="index.html" class="close"><strong>X</strong></a>
+  </div>
+</body>
+
+</html>

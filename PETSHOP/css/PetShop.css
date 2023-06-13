@@ -1,5 +1,5 @@
 /* Menu (Comum em "todas" as páginas") */
-body{
+body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -28,7 +28,7 @@ header #logo {
 }
 
 /* Index.html */
-.body-index{
+.body-index {
   background-color: #e0bd20c5;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -36,7 +36,7 @@ header #logo {
 .golden {
   float: right;
   margin-right: 15rem;
-  
+
 }
 
 .inicio {
@@ -46,10 +46,10 @@ header #logo {
   font-size: large;
   /* margin-top: 2%; */
   padding: 4%;
-  
+
 }
 
-.inicio h3{
+.inicio h3 {
   margin-top: 10%;
 }
 
@@ -69,51 +69,52 @@ header #logo {
   color: #fff;
   line-height: 250%;
 }
- .botao:hover{
+
+.botao:hover {
   background-color: #6ec0aef1;
 }
 
-.marcas{
+.marcas {
   display: flex;
   justify-content: space-evenly;
   height: 160px;
   width: 100%;
   margin-right: 50%;
-  }
-
-  #h3-fotos{
-    height: 35%;
-    width: 50%;
-    padding: 4%;
-  }
-
-
-.fotos{
-  display: flex;
-  justify-content: space-evenly;  
 }
 
-.fotos img{
+#h3-fotos {
+  height: 35%;
+  width: 50%;
+  padding: 4%;
+}
+
+
+.fotos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fotos img {
   border-radius: 20px;
   width: 227px;
   height: 302px;
   justify-content: space-evenly;
 }
 
-.nomes{
+.nomes {
   display: flex;
   padding-top: 1%;
 }
 
-#jeff{
+#jeff {
   margin-left: 16%;
 }
 
-#neto{
+#neto {
   margin-left: 21%;
 }
 
-#thiago{
+#thiago {
   margin-left: 23%;
 }
 
@@ -174,7 +175,7 @@ textarea {
   justify-content: center;
   align-items: center;
   background-color: rgb(25, 25, 27);
-  font-family: 'Josefin Sans', sans-serif; 
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .form-image {
@@ -217,7 +218,7 @@ textarea {
 
 /* Página produtos.html */
 
-.body-produtos{
+.body-produtos {
   background-color: #e0bd20c5;
 }
 
@@ -241,6 +242,7 @@ textarea {
   align-items: center;
   margin-left: 4%;
 }
+
 .prod {
   width: 15rem;
   height: 22rem;
@@ -266,7 +268,7 @@ textarea {
   margin-top: -70%;
 }
 
-.prod button:hover{
+.prod button:hover {
   background-color: #6eb6c0f1;
 }
 
@@ -306,6 +308,31 @@ textarea {
 }
 
 .gender-input label {
+  font-size: 0.81rem;
+  font-weight: 600;
+  color: #000000c0;
+}
+
+/*Service input*/
+.service-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+  padding: 3px;
+  align-items: right;
+  padding: 2px;
+}
+
+.service-input {
+  display: flex;
+  align-items: center;
+}
+
+.service-input input {
+  margin-right: 0.35rem;
+}
+
+.service-input label {
   font-size: 0.81rem;
   font-weight: 600;
   color: #000000c0;
