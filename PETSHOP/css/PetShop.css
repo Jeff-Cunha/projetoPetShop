@@ -217,7 +217,7 @@ textarea {
 
 /* Página produtos.html */
 
-.pagina-produtos{
+.body-produtos{
   background-color: #e0bd20c5;
 }
 
@@ -230,6 +230,7 @@ textarea {
   padding: 1% 0;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 1%;
 }
 
 .prod img {
@@ -242,11 +243,12 @@ textarea {
 }
 .prod {
   width: 15rem;
-  height: 20rem;
+  height: 22rem;
   background-color: rgb(97, 97, 103);
   border-radius: 10px;
   color: white;
 }
+
 
 .prod p {
   margin-left: 4%;
@@ -255,10 +257,22 @@ textarea {
 .prod button {
   margin-left: 35%;
   border-radius: 5px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: rgb(180, 180, 180);
+  cursor: pointer;
+  color: #fff;
+  line-height: 250%;
+  margin-top: -70%;
+}
+
+.prod button:hover{
+  background-color: #6eb6c0f1;
 }
 
 .catdog {
   margin-left: 10.5%;
+  margin-top: 5%;
 }
 
 /* Ajeitar botão, centralizar área branca, mudar produtos, adicionar categoria: brinquedos e produtos de gato */
