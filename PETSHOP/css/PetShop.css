@@ -1,6 +1,6 @@
 /* Menu (Comum em "todas" as páginas") */
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 header {
@@ -31,13 +31,12 @@ header #logo {
 
 .body-index {
   background-color: #7429d4bb;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .golden {
   float: right;
   margin-right: 15rem;
-
 }
 
 .inicio {
@@ -48,21 +47,20 @@ header #logo {
   background-color: orange;
   margin: 3%;
   border-radius: 10px;
-
 }
 
 .inicio h3 {
-  margin-top: 10%;
+  margin-top: 7%;
 }
 
-.botao {
-  width: 20%;
+.botao-ini {
+  width: 40%;
   height: 5%;
   text-decoration: none;
   text-align: center;
   float: left;
-  margin-bottom: 3%;
-  margin-right: 50%;
+  /* margin-bottom: 3%; */
+  /* margin-right: 50%; */
   margin-left: 25%;
   margin-top: 3%;
   border-radius: 10px;
@@ -72,17 +70,16 @@ header #logo {
   line-height: 250%;
 }
 
-.botao:hover {
-  background-color: #6f00ffdc;
+.botao-ini:hover {
+  background-color: #9962df;
 }
 
 .marcas {
   display: flex;
   justify-content: space-evenly;
-  
 }
 
-.marcas img{
+.marcas img {
   cursor: pointer;
   height: 160px;
   width: 160px;
@@ -94,7 +91,6 @@ header #logo {
   padding: 4%;
 }
 
-
 .fotos {
   display: flex;
   justify-content: space-evenly;
@@ -105,7 +101,6 @@ header #logo {
   width: 227px;
   height: 302px;
   justify-content: space-evenly;
-  
 }
 
 .nomes {
@@ -125,10 +120,104 @@ header #logo {
   margin-left: 23%;
 }
 
+/* Página produtos.html */
 
-/* Página faleconosco.htm */
+.body-produtos {
+  background-color: #7429d4bb;
+}
 
-.container-cont {
+.produtos {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(253, 182, 50);
+  width: 80%;
+  border-radius: 10px;
+  padding: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 1%;
+}
+
+.prod img {
+  width: 14rem;
+  height: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4%;
+}
+
+.prod {
+  width: 15rem;
+  height: 22rem;
+  background-color: rgb(97, 97, 103);
+  border-radius: 10px;
+  color: white;
+}
+
+.prod p {
+  margin-left: 4%;
+}
+
+.prod button {
+  margin-left: 35%;
+  border-radius: 5px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #9962df;
+  cursor: pointer;
+  color: #fff;
+  line-height: 250%;
+  margin-top: -70%;
+}
+
+.prod button:hover {
+  background-color: rgb(253, 182, 50);
+}
+
+.catdog {
+  margin-left: 10.5%;
+  margin-top: 5%;
+}
+
+/* Rodapé */
+
+.rodape {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: stretch;
+  color: white;
+}
+
+.rodape a {
+  color: white;
+}
+
+.rodape-pag {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rodape h3 {
+  margin-left: 2.5%;
+}
+
+#footer {
+  margin-top: 1.5%;
+}
+
+/* Páginas de Formulario */
+
+.body-black {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(25, 25, 27);
+  font-family: "Josefin Sans", sans-serif;
+}
+.container {
   width: 80%;
   height: 80vh;
   display: flex;
@@ -139,7 +228,7 @@ header #logo {
   border-radius: 20px;
 }
 
-.form-cont {
+.form {
   width: 50%;
   display: block;
   justify-content: center;
@@ -149,7 +238,7 @@ header #logo {
   margin-left: 5%;
 }
 
-.form-cont-box {
+.form-box {
   margin-right: 20%;
 }
 
@@ -174,16 +263,6 @@ textarea {
   margin-bottom: 20px;
 }
 
-.body-black {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(25, 25, 27);
-  font-family: 'Josefin Sans', sans-serif;
-}
-
 .form-image {
   width: 50%;
   display: flex;
@@ -199,141 +278,48 @@ textarea {
   height: 80%;
 }
 
-.close {
-  width: 30px;
-  height: 30px;
-  font-size: 10px;
-  line-height: 325%;
-  /* tamanho da linha que contem o texto X para alinhar no centro */
-  text-decoration: none;
-  /* tira o sublinhado do link */
-  text-align: center;
-  /*alinhamento to texto no meio do botão (esq-dir)*/
-  position: relative;
-  /* relativo para ficar por posicionado como está acima */
-  right: 0.75%;
-  /* posição em relação horizontal */
-  top: 1%;
-  /* posição em relação vertical */
-  float: right;
-  /* desacopla o botão */
-  border-radius: 50%;
-  background-color: #d9c391;
-  color: #fff;
-}
-
-/* Página produtos.html */
-
-.body-produtos {
-  background-color: #7429d4bb;
-}
-
-.produtos {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: rgb(253, 182, 50);
-  width: 80%;
-  border-radius: 10px;
-  padding: 1% 0;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 1%;
-}
-
-.prod img {
-  width: 14rem;
-  height: 14rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 4%;
-}
-
-.prod {
-  width: 15rem;
-  height: 22rem;
-  background-color: rgb(97, 97, 103);
-  border-radius: 10px;
-  color: white;
-}
-
-
-.prod p {
-  margin-left: 4%;
-}
-
-.prod button {
-  margin-left: 35%;
-  border-radius: 5px;
-  text-decoration: none;
-  border-radius: 10px;
-  background-color: #7429d4bb;
-  cursor: pointer;
-  color: #fff;
-  line-height: 250%;
-  margin-top: -70%;
-}
-
-.prod button:hover {
-  background-color: rgb(253, 182, 50);
-}
-
-.catdog {
-  margin-left: 10.5%;
-  margin-top: 5%;
-}
-
 .continue-button {
   width: 84%;
   border: none;
-  background-color: rgb(239, 239, 245);
+  background-color: #7429d4bb;
   padding: 2%;
   border-radius: 5px;
   cursor: pointer;
   color: white;
 }
 
-.gender-group {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 0.5rem;
-  padding: 3px;
-  align-items: right;
-  padding: 2px;
-}
-
-.gender-input {
-  display: flex;
-  align-items: center;
-}
-
-.gender-input input {
-  margin-right: 0.35rem;
-}
-
-.gender-input label {
-  font-size: 0.81rem;
-  font-weight: 600;
-  color: #000000c0;
+.close {
+  width: 30px;
+  height: 30px;
+  font-size: 10px;
+  line-height: 325%;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  right: 0.75%;
+  top: 1%;
+  float: right;
+  border-radius: 50%;
+  background-color: #d9c391;
+  color: #fff;
 }
 
 /*Service input*/
+
 .service-group {
   display: flex;
   justify-content: space-around;
-  margin-top: 0.5rem;
+  margin-top: -3%;
   padding: 3px;
-  align-items: right;
   padding: 2px;
 }
 
 .service-input {
-  display: flex;
-  align-items: center;
+  margin-bottom: 3%;
 }
 
 .service-input input {
-  margin-right: 0.35rem;
+  margin-right: -1%;
 }
 
 .service-input label {
@@ -342,27 +328,26 @@ textarea {
   color: #000000c0;
 }
 
-/* Rodapé */
-.rodape a{
-  color: white;
-}
+/* Gender Input */
 
-.rodape{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-items: stretch;
-  color: white;
-}
-
-.rodapE{
+.gender-group {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  margin-top: -3%;
+  padding: 3px;
+  padding: 2px;
 }
 
-.rodape h3{
-  margin-left: 2.5%;
+.gender-input {
+  margin-bottom: 3%;
 }
 
-#footeR{
-  margin-top: 1.5%;
+.gender-input input {
+  margin-right: -1%;
+}
+
+.gender-input label {
+  font-size: 0.81rem;
+  font-weight: 600;
+  color: #000000c0;
 }
