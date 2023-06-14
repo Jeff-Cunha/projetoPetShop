@@ -283,18 +283,6 @@ textarea {
   margin-top: 5%;
 }
 
-.rodape a{
-  color: white;
-}
-
-.rodape{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  justify-items: stretch;
-  color: white;
-}
-/* Ajeitar botão, centralizar área branca, mudar produtos, adicionar categoria: brinquedos e produtos de gato */
-
 .continue-button {
   width: 84%;
   border: none;
@@ -352,4 +340,29 @@ textarea {
   font-size: 0.81rem;
   font-weight: 600;
   color: #000000c0;
+}
+
+/* Rodapé */
+.rodape a{
+  color: white;
+}
+
+.rodape{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: stretch;
+  color: white;
+}
+
+.rodapE{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rodape h3{
+  margin-left: 2.5%;
+}
+
+#footeR{
+  margin-top: 1.5%;
 }
